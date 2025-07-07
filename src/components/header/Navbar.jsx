@@ -24,7 +24,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="flex items-center">
-                        <img src="../../../src/assets/images/logo.png" alt="logo" />
+                        <img className="w-12" src="../../../src/assets/images/logo.png" alt="logo" />
                         <div>
                             <p className="text-md md:text-xl font-bold pl-2 md:pl-4">HEXASHOP</p>
                             <p className="text-sm md:text-md pl-2 md:pl-4">ONLINE SHOPPING</p>
@@ -38,7 +38,7 @@ const Navbar = () => {
 
                 </div>
                 <div className="navbar-end">
-                    <a><Button ButtonText={"Login/Signup"}></Button></a>
+                    <Link to="signin"><Button ButtonText={"Login/Signup"}></Button></Link>
                 </div>
             </nav>
         </div>
