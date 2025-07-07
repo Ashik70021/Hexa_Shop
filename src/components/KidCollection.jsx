@@ -10,7 +10,7 @@ const KidCollection = () => {
                 bgImage={bgImage}
                 img1={img1}
                 img2={img2}
-                title="Kids Collection"
+                title={<>Kid&apos;s</>}
                 description={<>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, accusamus quam molestiae magni cupiditate dignissimos temporibus enim quidem consequuntur
                     voluptates sequi <br /><br /> veritatis tempore blanditiis facilis vel sed voluptas aspernatur qui numquam reprehenderit iusto! Architecto facere molestiae minus rem aut et odio distinctio ipsum quidem magni,
                     nesciunt quo ullam voluptates similique.</>}

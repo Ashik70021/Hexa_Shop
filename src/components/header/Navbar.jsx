@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Button from "../Reusable_component/Button";
 
 const Navbar = () => {
 
@@ -37,7 +38,7 @@ const Navbar = () => {
 
                 </div>
                 <div className="navbar-end">
-                    <a><button type="button" className="px-4 py-2 font-semibold rounded-md border-2 border-black text-black">Signin</button></a>
+                    <a><Button ButtonText={"Login/Signup"}></Button></a>
                 </div>
             </nav>
         </div>

@@ -9,6 +9,7 @@ const HeroText = ({ title, description, buttonText }) => {
                 <button className="mt-2 md:mt-4 border-2 px-1 md:px-2 py-1 md:py-0 text-sm md:text-lg ">
                     {buttonText}
                 </button>
+                {/* <Button ButtonText={buttonText}></Button> */}
             </div>
         </div>
 
