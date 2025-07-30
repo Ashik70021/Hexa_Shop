@@ -1,7 +1,7 @@
 import Collection from "./Reusable_component/Collection";
-import bgImage from "../../src/assets/images/Rectangle109.png";
-import img1 from "../../src/assets/images/Rectangle112.png";
-import img2 from "../../src/assets/images/Rectangle111.png";
+import bgImage from "../assets/images/Rectangle109.png";
+import img1 from "../assets/images/Rectangle112.png";
+import img2 from "../assets/images/Rectangle111.png";
 
 const KidCollection = () => {
     return (
